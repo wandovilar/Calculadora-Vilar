@@ -1,0 +1,89 @@
+body {
+  background-image: url("/css/fundo.jpg");
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  margin: 40px;
+  width: 450px;
+  height: 760px;
+  border-radius: 15px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.9);
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.title {
+  width: auto;
+  color: #fafafa;
+  align-self: center;
+  margin: 15px 15px 15px 10px;
+}
+
+.calculadora {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.calculadora .visor {
+  margin: 15px 10px 15px 10px;
+  width: 95%;
+  height: 83px;
+  background-color: transparent;
+  text-align: right;
+  resize: none;
+  font-size: 70px;
+  color: #fafafa;
+}
+
+/* Operadores */
+
+.operadores-conteiner {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  margin: 5px 15px 5px 0;
+  justify-content: space-around;
+}
+
+.operadores,
+.numero,
+.numero-especial {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  border-style: none;
+  background-color: transparent;
+  box-shadow: -5px -5px #ffffff;
+  font-size: 45px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  color: #fafafa;
+}
+
+.operadores {
+  background-color: #ff7171;
+  color: #fff;
+}
+
+.numero-especial {
+  width: 170px;
+}
+
+.numero-especial:hover,
+.numero:hover {
+  color: aqua;
+  transform: scale(1.05);
+}
+
+.operadores:hover {
+  transform: scale(1.05);
+}
