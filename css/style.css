@@ -55,8 +55,7 @@ main {
 }
 
 .operadores,
-.numero,
-.numero-especial {
+.numero {
   width: 70px;
   height: 70px;
   border-radius: 15px;
@@ -74,8 +73,9 @@ main {
   color: #fff;
 }
 
-.numero-especial {
-  width: 170px;
+/* Número Zero (lagura maior que outros elementos class = numero) */
+#zero {
+  width: 170px; 
 }
 
 .numero-especial:hover,

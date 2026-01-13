@@ -25,9 +25,10 @@ A calculadora está pronta em sua estrutura visual. O foco agora é a transiçã
 
 * **Intenção:** Adicionar **JavaScript** para fazer a calculadora funcionar de forma completa, processando as operações de soma, subtração, multiplicação e divisão.
 * **Foco no JS:**
-    1.  Manipulação do DOM (Document Object Model) para ler e escrever no visor.
-    2.  Implementação de **Event Listeners** para cada botão.
-    3.  Desenvolvimento da lógica de cálculo.
+    1.  Manipulação do DOM (Document Object Model) para ler e escrever no visor. ✅
+    2.  Implementação de **Event Listeners** para cada botão. ✅
+    3.  Desenvolvimento da lógica de cálculo. ✅
+    4. Ativar keydown ( Teclado)
 
 ---
 

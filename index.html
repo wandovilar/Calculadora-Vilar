@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
     <title>Calculator</title>
   </head>
   <body>
@@ -14,21 +15,21 @@
         </div>
         <form class="calculadora">
           <label for="caixa-resposta" class="caixa-resposta"></label>
-          <textarea name="visor" placeholder="0" class="visor">0</textarea>
+          <textarea name="visor" placeholder="0" class="visor"></textarea>
         </form>
 
         <div class="operadores-conteiner">
           <button class="operadores">C</button>
           <button class="operadores">+/-</button>
           <button class="operadores">%</button>
-          <button class="operadores">÷</button>
+          <button class="operadores">/</button>
         </div>
 
         <div class="operadores-conteiner">
           <button class="numero">7</button>
           <button class="numero">8</button>
           <button class="numero">9</button>
-          <button class="operadores">X</button>
+          <button class="operadores">*</button>
         </div>
 
         <div class="operadores-conteiner">
@@ -46,7 +47,7 @@
         </div>
 
         <div class="operadores-conteiner">
-          <button class="numero-especial">0</button>
+          <button class="numero" id="zero">0</button>
           <button class="numero">.</button>
           <button class="operadores">=</button>
         </div>
