@@ -1,5 +1,5 @@
 body {
-  background-image: url("/img/fundo.jpg");
+  background-image: url("../img/fundo.jpg");
 }
 
 main {
@@ -75,7 +75,7 @@ main {
 
 /* Número Zero (lagura maior que outros elementos class = numero) */
 #zero {
-  width: 170px; 
+  width: 170px;
 }
 
 .numero-especial:hover,
