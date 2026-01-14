@@ -88,7 +88,7 @@ main {
   transform: scale(1.05);
 }
 
-/* ✅ Ajustes gerais para telas menores */
+/*  Ajustes gerais para telas menores */
 @media (max-width: 768px) {
   body {
     background-position: center;
@@ -137,7 +137,7 @@ main {
   }
 }
 
-/* ✅ Celulares pequenos */
+/* Celulares pequenos */
 @media (max-width: 420px) {
   .container {
     width: 95%;
@@ -145,7 +145,7 @@ main {
   }
 
   .title h1 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .calculadora .visor {
